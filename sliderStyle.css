@@ -1,0 +1,18 @@
+.slider {
+	width: 90%;
+    height:600px;
+    margin:auto;
+    box-shadow: 0px 0px 10px 3px grey;
+    position: relative;
+	overflow: hidden;
+}
+
+.slider img{
+	position: absolute;
+	display: none;
+}
+
+.slider img.active{
+	display: block;
+}
+
